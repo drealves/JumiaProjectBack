@@ -1,0 +1,9 @@
+com\example\sqlitedemo\resources\CountryControllerTest.class
+com\example\sqlitedemo\service\impl\CustomerServiceImplTest.class
+com\example\sqlitedemo\repository\CountryRepositoryTest.class
+com\example\sqlitedemo\domain\CountryTest.class
+com\example\sqlitedemo\resources\CustomerControllerTest.class
+com\example\sqlitedemo\repository\CustomerRepositoryTest.class
+com\example\sqlitedemo\service\impl\CountryServiceImplTest.class
+com\example\sqlitedemo\SqlitedemoApplicationTests.class
+com\example\sqlitedemo\domain\CustomerTest.class
