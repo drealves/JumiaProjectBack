@@ -1,53 +1,27 @@
-# Project Title
+# Jumiaapp
 
-O projeto disponibiliza a informação de todos o números válidos e inválidos
-inseridos referentes ao regex disponibilizado.
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.9.
 
-## Description
+## Development server
 
-Este projeto foi estruturado da seguinte forma, duas entidades Customer e Country, em que Customer
-é a entidade que se regista e seu numero de telemóvel é validado. Country é a entidade que disponibiliza
-os dados referentes ao País, Regex, código do pais, que são usados na validação do Customer ao ser registado
-no sistema.
+Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-ao fazer POST : /Customer do objeto Customer, esse objeto é verificado se seu get.phone()
-faz match com qualquer Regex da entidade Country.
-Caso faça o state do Custumer é (true) e o Country referente é associado a Customer.
-Caso não faça, o seu state é (False) e não lhe é associado nenhum Country.
+## Code scaffolding
 
-essa é a logica de negócio que foi interpretado pelo enunciado.
+Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
-relativamente ao Frontend, faz render uma pagina, em que disponibiliza uma tabela Customer
-e outra tabela referente ao Country.
+## Build
 
+Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
 
-## Getting Started
+## Running unit tests
 
-### Dependencies
+Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
-* maven
-* java 11
-* angular
+## Running end-to-end tests
 
-### Server
+Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
 
-* Backend is running http://localhost:8080
-* Frontend is running http://localhost:4200
+## Further help
 
-### Executing program Backend
-
-Compilar spring server 
-```
- mvn clean package
-```
-Run Server
-```
-  java -jar ./targer/sqlitedemo-0.0.1-SNAPSHOT.jar
-```
-
-### Executing program Frontend
-
-Run angular
-```
-ng serve
-```
+To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
